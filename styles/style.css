@@ -1,0 +1,25 @@
+@import url(/styles/cards.css);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root {
+    /* Cores Primarias */
+    --gradiente-linear:  rgb(100, 72, 254) to rgb(96, 5, 148); /* Borda de entrada ativa */
+    --vermelho: rgb(255, 82, 82); /* Erros de entrada */
+
+    /* Cores Neutras */
+    --branco: rgb(255, 255, 255);
+    --cinza-claro: rgb(222, 221, 223);
+    --cinza-escuro: rgb(142, 133, 147);
+    --violeta: rgb(33, 9, 47);
+}
+
+body {
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    font-weight: 500;
+}

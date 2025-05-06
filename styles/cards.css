@@ -1,0 +1,62 @@
+.cards {
+    background-image: url(/images/bg-main-mobile.png);
+    background-size: 100% 65%;
+    background-repeat: no-repeat;
+}
+
+.cards img {
+    width: 65%;
+}
+
+.cards-back .cards-back-img {
+    position: relative;
+    top: 40px;
+    left: 110px;
+}
+
+.cards-back p {
+    font-size: 11px;
+    color: var(--cinza-claro);
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+}
+
+.cards-front .cards-front-img {
+    position: relative;
+    left: 30px;
+    bottom: 38px;
+}
+
+.cards-front .cards-logo {
+    width: 60px;
+    position: relative;
+    bottom: 120px;
+    right: 200px;    
+}
+
+.cards-front .cards-front-number {
+    color: var(--branco);
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    position: relative;
+    bottom: 100px;
+    left: 48px;
+}
+
+.cards-front .cards-front-name {
+    color: var(--branco);
+    font-size: 8px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 90px;
+    left: 48px;
+}
+
+.cards-front .cards-front-date {
+    color: var(--branco);
+    font-size: 8px;
+    position: relative;
+    bottom: 100px;
+    left: 235px;
+}
