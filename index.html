@@ -34,17 +34,32 @@
     
   </section>
 
-  <section class="form">
+  <section class="formulario">
     <form action="">
       <label for="nome">Nome do Titular</label>
-      <input type="text" name="name" id="name" required>
+      <input type="text" name="name" id="name" required placeholder="ex. Jane Appleseed">
+
+      <label for="numero">Número do cartão</label>
+      <input type="text" name="numero" id="numero" maxlength="19" required placeholder="ex. 1234 5678 9111 0000">
+
+      <div class="data-val-label">
+        <label for="data-val">Validade (MM/AA)</label> <label for="cvc">CVC</label>
+      </div>
+
+      <div class="data-val-input">
+        <input type="number" name="data-val" id="data-mes" required placeholder="MM" maxlength="2">
+        <input type="number" name="data-val" id="data-ano" required placeholder="AA" maxlength="2">
+        <input type="number" name="cvc" id="cvc" required placeholder="ex. 123" maxlength="3">
+      </div>
+
+      <button id="form-botao">Confirmar</button>
     </form>
 
   </section>
   
-  <div class="attribution">
+  <footer class="rodape">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Marcus Deslandes</a>.
-  </div>
+  </footer>
 </body>
 </html>

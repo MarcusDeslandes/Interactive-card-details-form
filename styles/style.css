@@ -1,12 +1,22 @@
 @import url(/styles/cards.css);
+@import url(/styles/form.css);
 
 * {
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    min-height: 100vh;
+}
+
 :root {
+    --fonte-principal: 'Space Grotesk', sans-serif;
     /* Cores Primarias */
     --gradiente-linear:  rgb(100, 72, 254) to rgb(96, 5, 148); /* Borda de entrada ativa */
     --vermelho: rgb(255, 82, 82); /* Erros de entrada */
@@ -18,8 +28,16 @@
     --violeta: rgb(33, 9, 47);
 }
 
-body {
-    font-family: 'Space Grotesk';
-    font-size: 18px;
-    font-weight: 500;
+.rodape {
+    font-size: 10px;
+    background-color: var(--violeta);
+    color: var(--branco);
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape a {
+    text-decoration:underline;
+    color: var(--branco);
+    
 }
