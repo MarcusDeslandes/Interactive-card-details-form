@@ -29,7 +29,7 @@
     </div>    
   </section>
   <section class="formulario">
-    <form action="">
+    <form method="get"  id="formulario">
       <label for="nome">Nome do Titular</label>
       <input type="text" name="nome" id="nome" required placeholder="ex. Jane Appleseed">
 
@@ -46,8 +46,16 @@
         <input type="number" name="cvc" id="cvc" required placeholder="ex. 123" maxlength="3">
       </div>
 
-      <button id="form-botao">Confirmar</button>
+      <button class="botao" type="submit" id="form-botao" onclick="submit()">Confirmar</button>
     </form>
+
+    <div id="form-enviado" class="none">
+      <img src="/images/icon-complete.svg" alt="">
+      <h1>Obrigado!</h1>
+      <h2>Adicionamos os detalhes do seu cartão</h2>
+
+      <button class="botao">Continue</button>
+    </div>
   </section>
   
   <script src="/script.js"></script>

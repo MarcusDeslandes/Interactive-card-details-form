@@ -52,13 +52,38 @@
     color: var(--cinza-claro);
 }
 
-#form-botao {
+.botao {
     background-color: var(--violeta);
     color: var(--branco);
     border: 1px solid transparent;
     border-radius: 8px;
     padding: 14px;
-    margin: 16px 0;
+    margin: 50px 0;
     font-family: var(--fonte-principal);
     font-size: 16px;
+    width: 100%;
+}
+
+#form-enviado {
+    text-align: center;
+}
+
+#form-enviado h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--violeta);
+    padding: 12px;
+}
+
+#form-enviado h2 {
+    font-size: 16px;
+    color: var(--cinza-escuro);
+}
+
+.none {
+    display: none;
+}
+
+.apears {
+    display: block;
 }
