@@ -11,7 +11,7 @@
 .cards-back .cards-back-img {
     position: relative;
     top: 40px;
-    left: 110px;
+    left: 110px
 }
 
 .cards-back p {
@@ -20,12 +20,13 @@
     position: relative;
     left: 300px;
     bottom: 40px;
+    width: 10%;
 }
 
 .cards-front .cards-front-img {
     position: relative;
     left: 30px;
-    bottom: 38px;
+    bottom: 38px;   
 }
 
 .cards-front .cards-logo {
@@ -42,6 +43,7 @@
     position: relative;
     bottom: 100px;
     left: 48px;
+    width: 60%;
 }
 
 .cards-front .cards-front-name {
@@ -51,6 +53,7 @@
     position: relative;
     bottom: 90px;
     left: 48px;
+    width: 50%;
 }
 
 .cards-front .cards-front-date {
@@ -59,4 +62,5 @@
     position: relative;
     bottom: 100px;
     left: 235px;
+    width: 8%;
 }

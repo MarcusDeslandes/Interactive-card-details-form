@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Formulário interativo de detalhes do cartão</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Formulário interativo de detalhes do cartão</title>
 
-  <link rel="stylesheet" href="/styles/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-
   <section class="cards">
-
     <div class="cards-back">
       <img src="/images/bg-card-back.png" alt="" class="cards-back-img">
       <p>000</p>
@@ -30,14 +26,12 @@
       <p class="cards-front-number">0000 0000 0000 0000</p>
       <p class="cards-front-name">Jane Appleseed</p>
       <p class="cards-front-date">00/00</p>
-    </div>
-    
+    </div>    
   </section>
-
   <section class="formulario">
     <form action="">
       <label for="nome">Nome do Titular</label>
-      <input type="text" name="name" id="name" required placeholder="ex. Jane Appleseed">
+      <input type="text" name="nome" id="name" required placeholder="ex. Jane Appleseed">
 
       <label for="numero">Número do cartão</label>
       <input type="text" name="numero" id="numero" maxlength="19" required placeholder="ex. 1234 5678 9111 0000">
@@ -54,12 +48,7 @@
 
       <button id="form-botao">Confirmar</button>
     </form>
-
   </section>
   
-  <footer class="rodape">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Marcus Deslandes</a>.
-  </footer>
 </body>
 </html>
