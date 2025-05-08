@@ -14,24 +14,24 @@
     <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-  <section class="cards">
+  <section class="cards" id="cards">
     <div class="cards-back">
       <img src="/images/bg-card-back.png" alt="" class="cards-back-img">
-      <p>000</p>
+      <p id="card-cvc">000</p>
     </div>
 
     <div class="cards-front">
       <img src="/images/bg-card-front.png" alt="" class="cards-front-img">
       <img src="/images/card-logo.svg" alt="" class="cards-logo">
-      <p class="cards-front-number">0000 0000 0000 0000</p>
-      <p class="cards-front-name">Jane Appleseed</p>
-      <p class="cards-front-date">00/00</p>
+      <p class="cards-front-number" id="card-number">0000 0000 0000 0000</p>
+      <p class="cards-front-name" id="card-name">Jane Appleseed</p>
+      <p class="cards-front-date" id="card-date">00/00</p>
     </div>    
   </section>
   <section class="formulario">
     <form action="">
       <label for="nome">Nome do Titular</label>
-      <input type="text" name="nome" id="name" required placeholder="ex. Jane Appleseed">
+      <input type="text" name="nome" id="nome" required placeholder="ex. Jane Appleseed">
 
       <label for="numero">Número do cartão</label>
       <input type="text" name="numero" id="numero" maxlength="19" required placeholder="ex. 1234 5678 9111 0000">
@@ -50,5 +50,6 @@
     </form>
   </section>
   
+  <script src="/script.js"></script>
 </body>
 </html>
