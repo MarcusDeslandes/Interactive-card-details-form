@@ -52,9 +52,11 @@
     color: var(--cinza-claro);
 }
 
-#form-botao {
+.botao {
     background-color: var(--violeta);
     color: var(--branco);
+    text-align: center;
+    text-decoration: none;
     border: 1px solid transparent;
     border-radius: 8px;
     padding: 14px;
@@ -64,8 +66,10 @@
     width: 100%;
 }
 
+
 #form-enviado {
     text-align: center;
+    display: none;
 }
 
 #form-enviado h1 {
@@ -80,10 +84,10 @@
     color: var(--cinza-escuro);
 }
 
-.none {
+/* .none {
     display: none;
 }
 
 .apears {
     display: block;
-}
+} */
