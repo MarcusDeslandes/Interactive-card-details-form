@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //manipulação do DOM ao preencher os dados
 
 const formulario = document.querySelector('#formulario');
@@ -31,5 +30,3 @@ function submit (event) {
 }
 
 formularioBotao.addEventListener('submit', submit);
-=======
->>>>>>> parent of e25155b (leves alterações)

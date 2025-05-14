@@ -1,20 +1,20 @@
-.formulario {
+.formulario-container {
     align-items: center;
     margin: 0 20px;
 }
 
-.formulario form {
+#formulario {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.formulario form label {
+#formulario label {
     font-size: 12px;
     text-transform: uppercase;
 }
 
-.formulario form input {
+#formulario input {
     width: 100%;
     padding: 10px;
     border: 1px solid var(--cinza-claro);
@@ -47,7 +47,7 @@
     /* margin-left: 10px; */
 }
 
-.formulario form input::placeholder {
+#formulario input::placeholder {
     font-size: 16px;
     color: var(--cinza-claro);
 }
