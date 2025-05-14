@@ -1,37 +1,37 @@
-.formulario-container {
+.formulario {
     align-items: center;
     margin: 0 20px;
 }
 
-#formulario {
+.formulario form {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-#formulario label {
+.formulario form label {
     font-size: 12px;
     text-transform: uppercase;
 }
 
-#formulario input {
+.formulario form input {
     width: 100%;
     padding: 10px;
     border: 1px solid var(--cinza-claro);
     border-radius: 6px;
 }
 
-#formulario #data-mes {
+#data-mes {
     width: 22%;
     display: flex;
 }
 
-#formulario #data-ano {
+#data-ano {
     width: 20%;
     display: flex;
 }
 
-#formulario #cvc {
+#cvc {
     margin-left: 10px;
 }
 
@@ -47,7 +47,7 @@
     /* margin-left: 10px; */
 }
 
-#formulario input::placeholder {
+.formulario form input::placeholder {
     font-size: 16px;
     color: var(--cinza-claro);
 }
