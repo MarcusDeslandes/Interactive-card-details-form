@@ -21,24 +21,24 @@
     border-radius: 6px;
 }
 
-#data-mes {
-    width: 22%;
+.data-val-input #data-mes {
+    width: 25%;
     display: flex;
 }
 
-#data-ano {
-    width: 20%;
+.data-val-input #data-ano {
+    width: 25%;
     display: flex;
 }
 
-#cvc {
+.data-val-input #cvc {
     margin-left: 10px;
 }
 
 .data-val-label {
     display: flex;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 35px;
 }
 
 .data-val-input {
