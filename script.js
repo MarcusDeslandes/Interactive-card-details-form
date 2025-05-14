@@ -30,8 +30,3 @@ function submit (event) {
 }
 
 formularioBotao.addEventListener('submit', submit);
-
-function voltarAPaginaAnterior() {
-    formulario.preventDefault();
-    window.history.back(); // Volta para a página anterior do histórico
-}
